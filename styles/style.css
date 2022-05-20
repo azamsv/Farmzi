@@ -1,0 +1,34 @@
+@import "./fonts.css";
+/*BASE CONF*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+/*BASE CONF*/
+
+/*UNIQUE CONF*/
+
+.d-flex {
+    display: flex;
+}
+.justify_center {
+    justify-content: center;
+}
+.justify_between {
+    justify-content: space-between;
+}
+.align_center {
+    align-items: center;
+}
+.flex_column {
+    flex-direction: column;
+}
+h-100 {
+    height: 100%;
+}
+
+
